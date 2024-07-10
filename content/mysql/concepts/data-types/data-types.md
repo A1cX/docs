@@ -88,7 +88,7 @@ payment_amount BIGINT(20),
 payment_date DATETIME
 );
 
-Next, MySQL extracts the data and keeps record of all payments:
+Next, MySQL extracts the data and keeps record of the payments:
 
 INSERT INTO payments (user_id, order_id, payment_amount, payment_date)
 VALUES
